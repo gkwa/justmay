@@ -8,7 +8,7 @@ datasources:
   # <string, required> access mode. direct or proxy. Required
   access: proxy
   # <string> url
-  url: http://localhost:8080
+  url: http://host.docker.internal:8001/data/json/raw
   # <string> database user, if used
   user:
   # <string> database name, if used
