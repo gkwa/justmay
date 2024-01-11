@@ -1,0 +1,14 @@
+* justmay
+
+** summary
+
+This is a description of project justmay.
+
+** usage
+
+Example:
+#+begin_example
+make test
+./justmay --help
+./justmay --verbose --verbose # for debug
+#+end_example
