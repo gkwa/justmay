@@ -1,6 +1,14 @@
 # # config file version
 apiVersion: 1
 
+datasources:
+- name: MyTestDatasource
+  url: http://host.docker.internal:8001/data/json/raw
+  user:
+  password:
+  basicAuth: false
+  editable: true
+
 # # list of datasources that should be deleted from the database
 #deleteDatasources:
 #   - name: Graphite
